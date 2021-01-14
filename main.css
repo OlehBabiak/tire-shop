@@ -129,8 +129,9 @@ h2 {
 .foo {
     background-color: rgb(34, 38, 41);
     color: lightsteelblue;
-    width: 76%;
+    width: 70%;
     margin: 0 auto;
+    padding: 20px;
 }
 .foo-content{
      display: flex;
@@ -140,7 +141,7 @@ h2 {
 .btn2{
     background-color: rgb(184, 49, 49);
     width: 120px;
-    height: 60;
+    height: 30px;
     font-size: large;
     font-weight: 500;
 }
