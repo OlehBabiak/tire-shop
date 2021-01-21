@@ -9,6 +9,7 @@ body {
     color: rgb(26, 19, 19);
     font-family: sans-serif;
     background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 .back {
@@ -50,7 +51,7 @@ h2 {
     background-color: rgb(148, 175, 166);
 }
 
-.item {
+/* .item {
     background-color: #fff;
     margin: 20px auto;
     border: 2px solid rgb(63, 61, 61);
@@ -61,32 +62,32 @@ h2 {
 }
 .item:hover {
     background-color: lightblue;
-}
+} */
 
 .img{
     width: 200px;
 }
 
-.img:hover{
+/* .img:hover{
  transform: scale(1.3);
- }
+ } */
 
 
-.block{
+/* .block{
   display: inline-block;
   vertical-align: middle;
   padding: 10px;
-}
+} */
 
-.description {
+/* .description {
     padding-left: 120px;
     font-weight: bold;
-}
+} */
 
-.param {
+/* .param {
     padding: 5px;
     font-weight: 100;
-}
+} */
 
 .header {
     padding: 15px;
@@ -108,7 +109,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-.btn {
+.btn-up {
     width: 120px;
     height: 50px;
     border-radius: 5px;
@@ -118,7 +119,8 @@ h2 {
     font-family: sans-serif;
     text-align: center;
     top: 50%;
-    scroll-behavior:smooth
+    text-decoration:none;
+    color: blanchedalmond;
 }
 
 .sqw{
@@ -130,7 +132,7 @@ h2 {
 .foo {
     background-color: rgb(34, 38, 41);
     color: lightsteelblue;
-    width: 73%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -148,4 +150,35 @@ h2 {
 }
 .map{
     margin: 20px;
+}
+
+.card {
+    background: #fff;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+h5 {
+    font-size: medium;
+    padding: 0.5em;
+}
+
+.card-text {
+    font-size: small;
+    padding: 0.5em;
+}
+
+.btn {
+    background: grey;
+    text-decoration: none;
+    border-radius: 5%;
+    color: ivory;
+    font-size: large;
+    margin: 10px;
+    width: 70%;
 }
