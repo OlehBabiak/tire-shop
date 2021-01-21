@@ -24,6 +24,7 @@ body {
     margin: 0 auto;
     padding: 40px;
     color: mistyrose;
+
 }
 
 h1 {
@@ -129,7 +130,7 @@ h2 {
 .foo {
     background-color: rgb(34, 38, 41);
     color: lightsteelblue;
-    width: 70%;
+    width: 73%;
     margin: 0 auto;
     padding: 20px;
 }
